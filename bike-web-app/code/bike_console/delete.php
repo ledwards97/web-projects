@@ -11,7 +11,7 @@ if ((empty($_GET['id'])==false))
 		if($id) //id being set to 0 stops loop
 		{
 			$id=null;
-			header("Location: index.php");
+			header("Location: page_list.php");
 		}
 	
 	}

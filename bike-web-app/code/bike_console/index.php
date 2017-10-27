@@ -14,7 +14,7 @@
 					
 					include 'navigation.php';
 					
-					echo "<h2> SEARCH...  <h2>";
+					echo "<h2> SEARCH...  </h2>";
 		
 					include 'search.php';
 					

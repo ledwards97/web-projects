@@ -1,7 +1,7 @@
 <?php
 	include "db_conn.php";
 			
-	echo "<h2> Add Bike Record...:  <h2>";
+	echo "<h2> Add Bike Record...  <h2>";
 	
 	echo	"<form action='#' method='GET'>	";
 		echo	"<input name='add_make' 		type='text' placeholder='Make...		'>"; 
