@@ -1,5 +1,8 @@
 <?php
 include 'db_conn.php';
+include 'delete.php';
+		
+		echo "<h2> BIKE LIST...  </h2>";
  
 		$query = "SELECT * FROM tbl_bikes";
 		$result = mysqli_query($conn, $query);
@@ -8,7 +11,7 @@ include 'db_conn.php';
 		{
 		echo "<table>";
 		echo "<tr>";
-		echo "<th> ID -</th>";
+		echo "<th> ID --</th>";
 		echo "<th> MAKE --</th>";
 		echo "<th> MODEL --</th>";
 		echo "<th> TYPE --</th>";
@@ -32,12 +35,13 @@ include 'db_conn.php';
 					echo "<td>".$row["colour"] 						."</td>";
 					echo "<td>".$row["stock"] 						."</td>";
 					echo "<td>".$row["price"] 						."</td>";
+					echo "<td> <a href='delete.php?id=".$row["ID"]."'> delete </a> </td>";
 					echo "</tr>";
 			}
 		}
 		else
 		{
-			echo "<p> NO RESULTS! </p>";
+			echo "<p> NO DB FOUND! </p>";
 		}
 		
 		

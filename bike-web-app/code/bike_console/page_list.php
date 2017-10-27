@@ -14,16 +14,9 @@
 					
 					include 'navigation.php';
 					
-					echo "<h2> SEARCH...  <h2>";
-		
-					include 'search.php';
+					include 'list.php';
 					
-					echo "<p></p>";	
+
 				?>	
 				
 	</body>
-	
-		
-	
-	
-	

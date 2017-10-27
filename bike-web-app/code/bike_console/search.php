@@ -1,35 +1,92 @@
 <?php
-include 'db_conn.php';
-
-	echo "<p> Search Bike Make... </p>";
 	
-	echo "<form action='#' method='GET'>";
-	echo "<input name='search' type='text' placeholder='search make'>";
-	echo "<input name='search_model' type='text' placeholder='search_model'>";
+	id_query();
+	
+	make_query();
+	
+	model_query();
+
+function id_query()
+	{
+		
+	include 'db_conn.php';
+	
+	echo "<form name'search_id_form' action='#' method='get'>";	
+	echo "<input name='id_search' type='text' placeholder='search id'>";
 	echo "<input type='submit'>";
 	echo "</form>";
 	
-	if ((empty($_GET['search'])==false) || (empty($_GET['search_model'])==false)) //check and  confirms undefined
-	{	
-		//echo "Results found for: ".$search = $_GET['search'];
-		
-		
-		$search = $_GET['search'];
-		
-		$search_query = "SELECT * FROM tbl_bikes where make like '".$search."';";
-		$search_result = mysqli_query($conn, $search_query);
-		
-		
-		$search_model = $_GET['search_model'];
-		
-		$search_model_query = "SELECT * FROM tbl_bikes where model like '".$search_model."';";
-		$search_model_result = mysqli_query($conn, $search_model_query);
-		
-		//LOOP - IF BOTH FIELDS FILLED DO AND
-		
-		
-		if (($search_result)||($search_model_result))
+		if(isset($_GET['id_search']))
+		{	
+			$id_search = $_GET['id_search'];
+	
+			if($id_search)
 			{
+				$query = "SELECT * FROM tbl_bikes where id like '".$id_search."';";
+				$result = mysqli_query($conn, $query);	
+				
+				print_table($result);
+				
+				//return $query; //query is in the return
+			} 	
+		}
+	}
+	
+function make_query()
+	{
+		
+	include 'db_conn.php';
+	
+	echo "<form name'search_make_form' action='#' method='get'>";	
+	echo "<input name='make_search' type='text' placeholder='search make'>";
+	echo "<input type='submit'>";
+	echo "</form>";
+
+	if(isset($_GET['make_search']))
+		{	
+			$make_search = $_GET['make_search'];
+		
+			if($make_search)
+			{
+				$query = "SELECT * FROM tbl_bikes where make like '".$make_search."';";
+				$result = mysqli_query($conn, $query);	
+				
+				print_table($result);
+			} 
+		}
+	}
+	
+	
+function model_query()
+	{
+		
+	include 'db_conn.php';
+	
+	echo "<form name'search_model_form' action='#' method='get'>";	
+	echo "<input name='model_search' type='text' placeholder='search model'>";
+	echo "<input type='submit'>";
+	echo "</form>";
+	
+		if(isset($_GET['model_search']))
+		{	
+			$model_search = $_GET['model_search'];
+		
+			if($model_search)
+			{
+				$query = "SELECT * FROM tbl_bikes where model like '".$model_search."';";
+				$result = mysqli_query($conn, $query);	
+				
+				print_table($result);
+			} 
+		}
+	}
+
+	
+	
+function print_table ($result)
+	{		
+			if (empty($result)==false)
+			{	
 				echo "<table>";
 				echo "<tr>";
 				echo "<th> ID --		</th>";
@@ -44,7 +101,8 @@ include 'db_conn.php';
 				echo "<th> PRICE 		</th>";
 				echo "</tr>";
 			
-				while (($row = mysqli_fetch_assoc($search_result)) || ($row = mysqli_fetch_assoc($search_model_result))) {
+				while (($row = mysqli_fetch_assoc($result)))
+				{
 						echo "<tr>";
 						echo "<td>".$row["ID"]							."</td>";
 						echo "<td>".$row["make"]						."</td>";
@@ -59,17 +117,6 @@ include 'db_conn.php';
 						echo "</tr>";
 				}
 			}
-		else
-		{
-			echo "<p> NO RESULTS! </p>";
-		}
 	}
-	else
-	{
-		include 'list.php';
-	}
-	
-
-	
 	
 ?>
