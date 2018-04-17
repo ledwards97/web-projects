@@ -1,246 +1,205 @@
-  {
-    "type": "FeatureCollection",
-    "features": [
-        {
-        "type": "Feature",
-        "geometry": {
-                "type": "Point",
-                "coordinates": [51.295524,  4.453682]
-        },
-        "properties": {
-                 "dealerLocation":"Belgium",
-                 "dealerRegion":"Europe",
-                 "dealerPhone":"Phone: +32 (0)472 84 09 37",
-            }
-        },
-        {
-        "type": "Feature",
-        "geometry": {
-                "type": "Point",
-                "coordinates": [36.593180,  -121.849969]
-        },
-        "properties": {
-                 "dealerLocation":"California",
-                 "dealerRegion":"USA",
-                 "dealerPhone":"Tel (1-831) 646 5346",
-            }
-        },
-        {
-        "type": "Feature",
-        "geometry": {
-                "type": "Point",
-                "coordinates": [45.100000,  15.200000]
-        },
-        "properties": {
-                 "dealerLocation":"Croatia",
-                 "dealerRegion":"Europe",
-                 "dealerPhone":"",
-            }
-        },
-        {
-        "type": "Feature",
-        "geometry": {
-                "type": "Point",
-                "coordinates": [-17.616996,  177.450489]
-        },
-        "properties": {
-                 "dealerLocation":"Fiji Islands",
-                 "dealerRegion":"Oceania",
-                 "dealerPhone":"Tel: (679)6286957",
-            }
-        },
-        {
-        "type": "Feature",
-        "geometry": {
-                "type": "Point",
-                "coordinates": [28.497650,  -82.542658]
-        },
-        "properties": {
-                 "dealerLocation":"Florida",
-                 "dealerRegion":"USA",
-                 "dealerPhone":"Tel: Toll Free (1-800) 611 3823",
-            }
-        },
-        {
-        "type": "Feature",
-        "geometry": {
-                "type": "Point",
-                "coordinates": [54.100428,  13.388914]
-        },
-        "properties": {
-                 "dealerLocation":"Germany",
-                 "dealerRegion":"Europe",
-                 "dealerPhone":"Tel: +49 03834 776564",
-            }
-        },
-        {
-        "type": "Feature",
-        "geometry": {
-                "type": "Point",
-                "coordinates": [38.709995,  20.714116]
-        },
-        "properties": {
-                 "dealerLocation":"Greece",
-                 "dealerRegion":"Europe",
-                 "dealerPhone":"Fax +30 264 50 95525",
-            }
-        },
-        {
-        "type": "Feature",
-        "geometry": {
-                "type": "Point",
-                "coordinates": [43.259449,  -79.863743]
-        },
-        "properties": {
-                 "dealerLocation":"Hamilton",
-                 "dealerRegion":"Canada",
-                 "dealerPhone":"(647) 699 9013",
-            }
-        },
-        {
-        "type": "Feature",
-        "geometry": {
-                "type": "Point",
-                "coordinates": [32.406504,  34.871551]
-        },
-        "properties": {
-                 "dealerLocation":"Israel",
-                 "dealerRegion":"Asia",
-                 "dealerPhone":"Tel: +972-52-341 2067",
-            }
-        },
-        {
-        "type": "Feature",
-        "geometry": {
-                "type": "Point",
-                "coordinates": [6.228232,  99.919802]
-        },
-        "properties": {
-                 "dealerLocation":"Langkawi",
-                 "dealerRegion":"Europe",
-                 "dealerPhone":"Phone: +60 124 731 948",
-            }
-        },
-        {
-        "type": "Feature",
-        "geometry": {
-                "type": "Point",
-                "coordinates": [35.902668,  14.494495]
-        },
-        "properties": {
-                 "dealerLocation":"Malta",
-                 "dealerRegion":"Europe",
-                 "dealerPhone":"Tel: +356 21315505",
-            }
-        },
-        {
-        "type": "Feature",
-        "geometry": {
-                "type": "Point",
-                "coordinates": [38.959629,  -76.482347]
-        },
-        "properties": {
-                 "dealerLocation":"Maryland",
-                 "dealerRegion":"USA",
-                 "dealerPhone":"Terry: (1-410) 490 0914 ",
-            }
-        },
-        {
-        "type": "Feature",
-        "geometry": {
-                "type": "Point",
-                "coordinates": [-38.054339,  145.139663]
-        },
-        "properties": {
-                 "dealerLocation":"Melbourne",
-                 "dealerRegion":"Oceania",
-                 "dealerPhone":"Tel +61 438 563 164",
-            }
-        },
-        {
-        "type": "Feature",
-        "geometry": {
-                "type": "Point",
-                "coordinates": [38.787315,  -90.628263]
-        },
-        "properties": {
-                 "dealerLocation":"Missouri",
-                 "dealerRegion":"USA",
-                 "dealerPhone":"Tel: (1-314) 828 6863",
-            }
-        },
-        {
-        "type": "Feature",
-        "geometry": {
-                "type": "Point",
-                "coordinates": [52.418465,  5.069771]
-        },
-        "properties": {
-                 "dealerLocation":"Netherlands",
-                 "dealerRegion":"Europe",
-                 "dealerPhone":"Tel: +31 (0)20 4031018",
-            }
-        },
-        {
-        "type": "Feature",
-        "geometry": {
-                "type": "Point",
-                "coordinates": [59.913129,  10.640499]
-        },
-        "properties": {
-                 "dealerLocation":"Norway",
-                 "dealerRegion":"Europe",
-                 "dealerPhone":"Tel. (47-67) 58 71 55",
-            }
-        },
-        {
-        "type": "Feature",
-        "geometry": {
-                "type": "Point",
-                "coordinates": [39.931275,  4.134874]
-        },
-        "properties": {
-                 "dealerLocation":"Spain",
-                 "dealerRegion":"Europe",
-                 "dealerPhone":"Tel +34 971 235 981",
-            }
-        },
-        {
-        "type": "Feature",
-        "geometry": {
-                "type": "Point",
-                "coordinates": [-33.817264,  151.123702]
-        },
-        "properties": {
-                 "dealerLocation":"Sydney",
-                 "dealerRegion":"Oceania",
-                 "dealerPhone":"Greg: +61 413 705 559",
-            }
-        },
-        {
-        "type": "Feature",
-        "geometry": {
-                "type": "Point",
-                "coordinates": [13.794896,  100.509118]
-        },
-        "properties": {
-                 "dealerLocation":"Thailand Co. Ltd",
-                 "dealerRegion":"Asia",
-                 "dealerPhone":"Tel: +66 / 76 521 591",
-            }
-        },
-        {
-        "type": "Feature",
-        "geometry": {
-                "type": "Point",
-                "coordinates": [50.861089,  -1.323541]
-        },
-        "properties": {
-                 "dealerLocation":"UK",
-                 "dealerRegion":"Europe",
-                 "dealerPhone":"+44 2380 457 619 ",
-            }
-        },
+{
+	"type": "FeatureCollection",
+	"features": [{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [51.295524, 4.453682]
+			},
+			"properties": {
 
-]
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [36.593180, -121.849969]
+			},
+			"properties": {
+
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [45.100000, 15.200000]
+			},
+			"properties": {
+
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-17.616996, 177.450489]
+			},
+			"properties": {
+
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [28.497650, -82.542658]
+			},
+			"properties": {
+
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [54.100428, 13.388914]
+			},
+			"properties": {
+
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [38.709995, 20.714116]
+			},
+			"properties": {
+
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [43.259449, -79.863743]
+			},
+			"properties": {
+
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [32.406504, 34.871551]
+			},
+			"properties": {
+
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [6.228232, 99.919802]
+			},
+			"properties": {
+
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [35.902668, 14.494495]
+			},
+			"properties": {
+
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [38.959629, -76.482347]
+			},
+			"properties": {
+
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-38.054339, 145.139663]
+			},
+			"properties": {
+
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [38.787315, -90.628263]
+			},
+			"properties": {
+
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [52.418465, 5.069771]
+			},
+			"properties": {
+
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [59.913129, 10.640499]
+			},
+			"properties": {
+
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [39.931275, 4.134874]
+			},
+			"properties": {
+
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-33.817264, 151.123702]
+			},
+			"properties": {
+
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [13.794896, 100.509118]
+			},
+			"properties": {
+
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [50.861089, -1.323541]
+			},
+			"properties": {
+
+			}
+		}
+
+	]
 }
