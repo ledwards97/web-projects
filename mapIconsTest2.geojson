@@ -1,158 +1,226 @@
-{
-	"type": "FeatureCollection",
-	"features": [{
-		"type": "Feature",
-		"geometry": {
-			"type": "Point",
-			"coordinates": [-122.166149, 42.865508]
-		},
-		"properties": {
-			"flush": true,
-			"shower": true,
-			"vault": false,
-			"description": "Flush toilet, Shower",
-			"title": "Mazama",
-			"marker-size": "small"
-		}
-	}, {
-		"type": "Feature",
-		"geometry": {
-			"type": "Point",
-			"coordinates": [-122.342876, 43.063217]
-		},
-		"properties": {
-			"flush": false,
-			"shower": false,
-			"vault": true,
-			"description": "Vault toilet",
-			"title": "Claude Lewis Sno-Park-USFS",
-			"marker-size": "small"
-		}
-	}, {
-		"type": "Feature",
-		"geometry": {
-			"type": "Point",
-			"coordinates": [-122.037881, 42.879145]
-		},
-		"properties": {
-			"flush": true,
-			"shower": false,
-			"vault": false,
-			"description": "Flush toilet",
-			"title": "Lost Creek",
-			"marker-size": "small"
-		}
-	}, {
-		"type": "Feature",
-		"geometry": {
-			"type": "Point",
-			"coordinates": [-122.330322, 43.056641]
-		},
-		"properties": {
-			"flush": false,
-			"shower": false,
-			"vault": true,
-			"description": "Vault toilet",
-			"title": "Hamaker",
-			"marker-size": "small"
-		}
-	}, {
-		"type": "Feature",
-		"geometry": {
-			"type": "Point",
-			"coordinates": [-122.337174, 42.877807]
-		},
-		"properties": {
-			"flush": false,
-			"shower": false,
-			"vault": true,
-			"description": "Vault toilet",
-			"title": "Huckleberry Mountain",
-			"marker-size": "small"
-		}
-	}, {
-		"type": "Feature",
-		"geometry": {
-			"type": "Point",
-			"coordinates": [-122.463867, 42.889648]
-		},
-		"properties": {
-			"flush": false,
-			"shower": false,
-			"vault": true,
-			"description": "Vault toilet",
-			"title": "Natural Bridge -USFS",
-			"marker-size": "small"
-		}
-	}, {
-		"type": "Feature",
-		"geometry": {
-			"type": "Point",
-			"coordinates": [-122.433105, 42.919678]
-		},
-		"properties": {
-			"flush": false,
-			"shower": false,
-			"vault": false,
-			"description": "",
-			"title": "Farewell Bend",
-			"marker-size": "small"
-		}
-	}, {
-		"type": "Feature",
-		"geometry": {
-			"type": "Point",
-			"coordinates": [-121.924772, 42.884588]
-		},
-		"properties": {
-			"flush": false,
-			"shower": false,
-			"vault": true,
-			"description": "Vault toilet",
-			"title": "Scott Creek",
-			"marker-size": "small"
-		}
-	}, {
-		"type": "Feature",
-		"geometry": {
-			"type": "Point",
-			"coordinates": [-122.324644, 42.913045]
-		},
-		"properties": {
-			"flush": false,
-			"shower": false,
-			"vault": true,
-			"description": "Vault toilet",
-			"title": "Thousand Springs Sno-Park-USFS",
-			"marker-size": "small"
-		}
-	}, {
-		"type": "Feature",
-		"geometry": {
-			"type": "Point",
-			"coordinates": [-122.45, 42.9102777778]
-		},
-		"properties": {
-			"flush": false,
-			"shower": false,
-			"vault": true,
-			"description": "Vault toilet",
-			"title": "Union Creek",
-			"marker-size": "small"
-		}
-	}, {
-		"type": "Feature",
-		"geometry": {
-			"type": "Point",
-			"coordinates": [-122.4353305556, 42.9162388889]
-		},
-		"properties": {
-			"flush": false,
-			"shower": false,
-			"vault": false,
-			"description": "",
-			"title": "Farewell Bend Campground",
-			"marker-size": "small"
-		}
-	}]
+
+  {
+    "type": "FeatureCollection",
+    "features": [
+        {
+        "type": "Feature",
+        "geometry": {
+                "type": "Point",
+                "coordinates": [4.453682, 51.295524]
+        },
+        "properties": {
+       
+            }
+        }
+,
+        {
+        "type": "Feature",
+        "geometry": {
+                "type": "Point",
+                "coordinates": [-121.849969, 36.593180]
+        },
+        "properties": {
+       
+            }
+        }
+,
+        {
+        "type": "Feature",
+        "geometry": {
+                "type": "Point",
+                "coordinates": [15.200000, 45.100000]
+        },
+        "properties": {
+       
+            }
+        }
+,
+        {
+        "type": "Feature",
+        "geometry": {
+                "type": "Point",
+                "coordinates": [177.450489, -17.616996]
+        },
+        "properties": {
+       
+            }
+        }
+,
+        {
+        "type": "Feature",
+        "geometry": {
+                "type": "Point",
+                "coordinates": [-82.542658, 28.497650]
+        },
+        "properties": {
+       
+            }
+        }
+,
+        {
+        "type": "Feature",
+        "geometry": {
+                "type": "Point",
+                "coordinates": [13.388914, 54.100428]
+        },
+        "properties": {
+       
+            }
+        }
+,
+        {
+        "type": "Feature",
+        "geometry": {
+                "type": "Point",
+                "coordinates": [20.714116, 38.709995]
+        },
+        "properties": {
+       
+            }
+        }
+,
+        {
+        "type": "Feature",
+        "geometry": {
+                "type": "Point",
+                "coordinates": [-79.863743, 43.259449]
+        },
+        "properties": {
+       
+            }
+        }
+,
+        {
+        "type": "Feature",
+        "geometry": {
+                "type": "Point",
+                "coordinates": [34.871551, 32.406504]
+        },
+        "properties": {
+       
+            }
+        }
+,
+        {
+        "type": "Feature",
+        "geometry": {
+                "type": "Point",
+                "coordinates": [99.919802, 6.228232]
+        },
+        "properties": {
+       
+            }
+        }
+,
+        {
+        "type": "Feature",
+        "geometry": {
+                "type": "Point",
+                "coordinates": [14.494495, 35.902668]
+        },
+        "properties": {
+       
+            }
+        }
+,
+        {
+        "type": "Feature",
+        "geometry": {
+                "type": "Point",
+                "coordinates": [-76.482347, 38.959629]
+        },
+        "properties": {
+       
+            }
+        }
+,
+        {
+        "type": "Feature",
+        "geometry": {
+                "type": "Point",
+                "coordinates": [145.139663, -38.054339]
+        },
+        "properties": {
+       
+            }
+        }
+,
+        {
+        "type": "Feature",
+        "geometry": {
+                "type": "Point",
+                "coordinates": [-90.628263, 38.787315]
+        },
+        "properties": {
+       
+            }
+        }
+,
+        {
+        "type": "Feature",
+        "geometry": {
+                "type": "Point",
+                "coordinates": [5.069771, 52.418465]
+        },
+        "properties": {
+       
+            }
+        }
+,
+        {
+        "type": "Feature",
+        "geometry": {
+                "type": "Point",
+                "coordinates": [10.640499, 59.913129]
+        },
+        "properties": {
+       
+            }
+        }
+,
+        {
+        "type": "Feature",
+        "geometry": {
+                "type": "Point",
+                "coordinates": [4.134874, 39.931275]
+        },
+        "properties": {
+       
+            }
+        }
+,
+        {
+        "type": "Feature",
+        "geometry": {
+                "type": "Point",
+                "coordinates": [151.123702, -33.817264]
+        },
+        "properties": {
+       
+            }
+        }
+,
+        {
+        "type": "Feature",
+        "geometry": {
+                "type": "Point",
+                "coordinates": [100.509118, 13.794896]
+        },
+        "properties": {
+       
+            }
+        }
+,
+        {
+        "type": "Feature",
+        "geometry": {
+                "type": "Point",
+                "coordinates": [-1.323541, 50.861089]
+        },
+        "properties": {
+       
+            }
+        }
+
+]
 }
